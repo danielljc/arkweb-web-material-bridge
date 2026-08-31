@@ -8,7 +8,8 @@ project(arkweb_web_material_bridge
 add_library(web_material
     src/types.cpp
     src/descriptor.cpp
-    src/codec.cpp)
+    src/codec.cpp
+    src/policy.cpp)
 
 target_include_directories(web_material
     PUBLIC
